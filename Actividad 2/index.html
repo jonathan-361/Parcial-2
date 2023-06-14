@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+	<title>Maquetado</title>
+	<style>
+
+		*{
+			font-family: 'Barlow Condensed', sans-serif;
+			font-size: 20px;
+		}
+
+		body{
+			background-color: #cccccc;
+		}
+
+		.centrar-texto{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.tarjeta-1{
+			background-color: #733FC8;
+		}
+
+		.tarjeta-2{
+			background-color: #49556B
+		}
+
+		.tarjeta-4{
+			background-color: #18202D;
+		}
+
+		.tamaño-imagen{
+			width: 90px; height: auto;
+		}
+	</style>
+</head>
+<body>
+	<main class="container alto-100 d-flex justify-content-center align-items-center">
+		<div class="row">
+			<div class="col-12 col-lg-9">
+				<div class="row">
+					<!--Primero-->
+					<div class="col-12 col-lg-8 p-2">
+						<article class="card shadow h-100 tarjeta-1">
+							<div class="card-body">
+								<div class="row align-items-center">
+									<div class="col-auto">
+										<img src="images/photo-1.jpg" alt="" class="border border-secudary border-4 rounded-circle tamaño-imagen">
+									</div>
+									<div class="col">
+										<h6 class="m0 h6 text-light">Alva Majo</h6>
+										<p class="m0 h6 text-black-60">Lorem, ipsum.</p>
+									</div>
+								</div>
+								<div class="mt-3">
+									<p class="fs-6 lh-1 text-light">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+								</div>
+								<p class="fs-6 lh-1 text-black-60">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+							</div>
+						</article>
+					</div>
+					<!--Segundo-->
+					<div class="col-12 col-lg-4 p-2">
+						<article class="card shadow h-100 tarjeta-2">
+							<div class="card-body">
+								<div class="row align-items-center">
+									<div class="col-auto">
+										<img src="images/photo-2.jpg" alt="" class="border border-secudary border-4  rounded-circle tamaño-imagen">
+									</div>
+									<div class="col">
+										<h6 class="m0 h6 text-light">Mia Sky</h6>
+										<p class="m0 h6 text-black-40">Lorem, ipsum.</p>
+									</div>
+								</div>
+								<div class="mt-3">
+									<p class="fs-6 lh-1 text-light">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<!--Tercero-->
+					<div class="col-12 col-lg-4 p-2">
+						<article class="card shadow h-100 bg-light">
+							<div class="card-body">
+								<div class="row align-items-center">
+									<div class="col-auto">
+										<img src="images/photo-3.jpg" alt="" class="border border-secudary border-4  rounded-circle tamaño-imagen">
+									</div>
+									<div class="col">
+										<h6 class="m0 h6">Phoenix Ravensong</h6>
+										<p class="m0 h6">Lorem, ipsum.</p>
+									</div>
+								</div>
+								<div class="mt-3">
+									<p class="fs-6 lh-1 text-black">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<!--Cuarto-->
+					<div class="col-12 col-lg-8 p-2">
+						<article class="card shadow h-100 tarjeta-4">
+							<div class="card-body">
+								<div class="row align-items-center">
+									<div class="col-auto">
+										<img src="images/photo-4.jpg" alt="" class="border border-secudary border-4  rounded-circle tamaño-imagen">
+									</div>
+									<div class="col">
+										<h6 class="m0 h6 text-light">Samantha Blackthorn</h6>
+										<p class="m0 h6 text-secondary">Lorem, ipsum.</p>
+									</div>
+								</div>
+								<div class="mt-3">
+									<p class="fs-6 lh-1 text-light">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+								</div>
+								<p class="fs-6 lh-1 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+
+			<!--Quito-->
+			<div class="col-12 col-lg-3">
+				<article class="card shadow h-100 bg-light">
+					<div class="card-body">
+						<div class="row align-items-center">
+							<div class="col-auto">
+								<img src="images/photo-5.jpg" alt="" class="border border-secudary border-4  rounded-circle tamaño-imagen">
+							</div>
+							<div class="col">
+								<h6 class="m0 h6">Jhonny Evergreen</h6>
+								<p class="m0 h6">Lorem, ipsum.</p>
+							</div>
+						</div>
+						<div class="mt-3">
+							<p class="fs-6 lh-1">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
+						</div>
+						<p class="fs-6 lh-1 text-muted">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor inciduntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+						ut aliquid ex ea commodi consequat. Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor inciduntut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+						ut aliquid ex ea commodi consequat.</p>
+					</div>
+				</article>
+			</div>
+
+		</div>
+	</main>
+</body>
+</html>
+
+<!-----------------------------------------
+Escuela: Universidad Tecnológica Metropolitana
+Asignatura: Aplicaciones Web
+Nombre del Maestro: Diego May Ivan Tuz
+Nombre de la actividad: Ejercicios de maquetado de bootstrap
+Nombre del alumno: Jonathan Alexander López Uc
+Cuatrimestre: 3°
+Grupo: A
+Parcial: 2
+------------------------------------------>
